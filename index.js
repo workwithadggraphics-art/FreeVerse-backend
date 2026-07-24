@@ -14,7 +14,7 @@ const db = admin.firestore();
 
 cloudinary.config({
   cloud_name: process.env.aw2736mv,
-  api_key: process.env.283865989995346,
+  api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.YNW0rnKUa51QwxpUMivcFmt4hTY
 });
 
